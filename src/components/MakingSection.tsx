@@ -4,8 +4,8 @@ import { Video, Play } from 'lucide-react';
 
 const MakingSection: React.FC = () => {
   // --- BTS VIDEO LINK CONFIGURATION ---
-  // FIXED: Converted your view link to a direct download link!
-  const btsVideoLink = "https://drive.google.com/uc?export=download&id=1WDAwTXK-Uqbw0oLbG4hJCVfKkzvZ-2Du";
+  // Replace the ID below with your YouTube video ID for bts.mp4
+  const btsVideoId = "tsvpHMZOELs"; // Example ID, replace me!
 
   return (
     <section className="py-20 bg-gradient-to-br from-dark-card via-dark-bg to-purple/10">
@@ -34,20 +34,17 @@ const MakingSection: React.FC = () => {
               </p>
             </div>
             
-            {/* Video Placeholder */}
-            <div className="relative bg-gradient-to-br from-purple/20 to-coral/20 rounded-xl overflow-hidden border-2 border-purple/30">
-              <div className="aspect-video flex items-center justify-center">
-                <div className="text-center">
-                  <video
-                    src={btsVideoLink}
-                    controls
-                    className="w-full max-w-2xl mx-auto rounded-xl shadow-lg my-8"
-                    poster=""
-                  >
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </div>
+            {/* Video Section */}
+            <div className="relative bg-black rounded-xl overflow-hidden border-2 border-purple/30 aspect-video shadow-2xl">
+              <iframe
+                width="100%"
+                height="100%"
+                src={`https://www.youtube.com/embed/${btsVideoId}`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
             
             <div className="mt-8 bg-gradient-to-r from-coral to-purple rounded-xl p-6 text-white text-center">
