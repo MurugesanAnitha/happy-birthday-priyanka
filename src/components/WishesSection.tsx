@@ -24,7 +24,7 @@ const WishesSection: React.FC = () => {
       backText: "The first ever date with you. Nallla irunchii priyankaa first time nee naa mattum jolly aah pesitu saptu🥲🧿💗. Annaikii alagaa irunthaa brown color dress laa💗. Apa apa pooolam priyaaa itheey maaariii🙂",
       color: "from-yellow-400 to-orange-500",
       sparkleColor: "text-yellow-300",
-      photo: "eat.jpg"
+      photo: "/eat.jpg"
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const WishesSection: React.FC = () => {
       backText: "Aiiiioooooo annaikii 3 movie ku pona apa Nee theatre la free hair vittalaaa priyankaaa chaaaaa avloooo nallllaaa irunthaaaa d. Naa yepdriii athaa unakuuu sollluveennn avloooo alagaaaaa irunthaaaaa😭😭🤌💗🧿. Naalaaam unna paathute okantuuu iruntheeen🫠",
       color: "from-indigo-400 to-purple-600",
       sparkleColor: "text-indigo-300",
-      photo: "3.jpg"
+      photo: "/3.jpg"
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const WishesSection: React.FC = () => {
       backText: "Yepdii priyankaaaa schl la irunthee exam time naa crt aah onnu senthuruvoom evloo gap la irunthaalum🤣🤣🤣. Ana nallla irukum priyankaa, nee call panni polambarathuu namba onna padikarathuu yelllam😂🤟🏻. Yenakulaam siripaa irukum, nee phn pannitu naan padikiren line la iru ntu padipala apalam😂😂",
       color: "from-pink-400 to-rose-600",
       sparkleColor: "text-pink-300",
-      photo: "study.jpg"
+      photo: "/study.jpg"
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ const WishesSection: React.FC = () => {
       backText: "Aiiiooo anaikii alaagaaa irunthaaa priyankaa💗noodles kuduka vantha apa lab laa okantuu. Nee starting la pakkavee illaa naa mantharam potta irunthen odanee pathutaa yenakulam nee yenna paatha odanee oreeeh kusii😂💃. Naa bonda ta laaam solliitu irunthen ivaa yen d ivloooo alagaaa irukaaa nuu😭💗💗💗💗🧿",
       color: "from-emerald-400 to-teal-600",
       sparkleColor: "text-emerald-300",
-      photo: "noodles.jpg"
+      photo: "/noodles.jpg"
     },
     {
       id: 5,
@@ -68,7 +68,7 @@ const WishesSection: React.FC = () => {
       backText: "yenakuuu nambaa first meet panna moment naaley, yenna kuptu vechi neenga ragging pandra maari kettingale yaaru azhaga iruka nu sollunu athan niyabagam varuthu😂😂, anaa priyankaa naa sollren yennoda schl life best years naa athu 11,12th than becoz of you guyss🥹 12th lam one of my best maari aairichuuu🥹💗",
       color: "from-amber-400 to-orange-600",
       sparkleColor: "text-amber-300",
-      photo: "ugirls.jpg"
+      photo: "/ugirls.jpg"
     },
     {
       id: 6,
@@ -79,7 +79,7 @@ const WishesSection: React.FC = () => {
       backText: "Innu marakka mudilaa 11th leave la ungala naanum agalya vum yemathanome vera schl pooren nu🤣🤣🤣 aiioooo neengalum nambitingaa yenkagaa neengalum last day apa letters laam kuduthingaa🥹🫶🏻💗 anaa avloo short time neengaa avloo close aaitingaa🫂💗 I loveee youu guyssss🥹🫂🫂",
       color: "from-cyan-400 to-blue-600",
       sparkleColor: "text-cyan-300",
-      photo: "grp.jpg"
+      photo: "/grp.jpg"
     }
   ];
 

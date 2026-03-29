@@ -8,32 +8,32 @@ const PicsSection: React.FC = () => {
   const photos = [
     {
       id: 1,
-      url: "youmesun.jpeg",
+      url: "/youmesun.jpeg",
       caption: "Where it all began 🥹💗",
       
     },
     {
       id: 2,
-      url: "child.jpg",
+      url: "/child.jpg",
       caption: "When the Sunshine Born 🌝💗",
       
     },
     {
       id: 3,
-      url: "cp.jpg",
+      url: "/cp.jpg",
       caption: "Beautiful moments like these flowers 🌸",
      
     },
     {
       id: 4,
-      url: "flowers.jpg",
+      url: "/flowers.jpg",
       caption: "His roses, her glowing smile 🌸",
     
     },
    
     {
       id: 6,
-      url: "gp.jpg",
+      url: "/gp.jpg",
       caption: "Our glam squad, no filter needed 💅❤️",
       
     }
@@ -81,7 +81,6 @@ const PicsSection: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                       <h3 className="text-2xl font-bold mb-2">{photo.caption}</h3>
-                      <p className="text-lg opacity-90">{photo.location}</p>
                     </div>
                   </div>
                 </div>
