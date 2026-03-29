@@ -35,7 +35,7 @@ const MakingSection: React.FC = () => {
               <div className="aspect-video flex items-center justify-center">
                 <div className="text-center">
                   <video
-                    src="/bts.mp4"
+                    src="bts.mp4" // You will replace this with your Google Drive direct link!
                     controls
                     className="w-full max-w-2xl mx-auto rounded-xl shadow-lg my-8"
                     poster=""

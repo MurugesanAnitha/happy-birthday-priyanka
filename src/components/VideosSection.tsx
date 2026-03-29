@@ -4,34 +4,43 @@ import { Play, Video, Heart, X } from 'lucide-react';
 const VideosSection: React.FC = () => {
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null);
 
+  // --- VIDEO LINKS CONFIGURATION ---
+  // You will replace these with your Google Drive direct links once uploaded!
+  const videoLinks = {
+    youAndMe: "youandme.mp4",
+    funny: "funny.mp4",
+    aval: "aval.mp4",
+    youBoth: "youboth.mp4"
+  };
+
   const videos = [
     {
       id: 1,
-      thumbnail: "/placeholder.svg", // You can replace this with a custom image if you want
+      thumbnail: "/placeholder.svg",
       title: "The first ever video of us🥹❤️‍🩹",
       duration: "0:37",
-      src: "youandme.mp4"
+      src: videoLinks.youAndMe
     },
     {
       id: 2,
-      thumbnail: "/placeholder.svg", // You can replace this with a custom image if you want
+      thumbnail: "/placeholder.svg",
       title: "💃🏻🫶🏻",
       duration: "0:38",
-      src: "funny.mp4"
+      src: videoLinks.funny
     },
     {
       id: 3,
-      thumbnail: "/placeholder.svg", // You can replace this with a custom image if you want
+      thumbnail: "/placeholder.svg",
       title: "Itha naa solliyee aganum nee avloo azhaguu 🫠💗",
       duration: "0:21",
-      src: "aval.mp4"
+      src: videoLinks.aval
     },
     {
       id: 4,
       thumbnail: "/placeholder.svg",
       title: "The cute part of you both 🫶🏻💗",
       duration: "0:35",
-      src: "youboth.mp4"
+      src: videoLinks.youBoth
     }
   ];
 
