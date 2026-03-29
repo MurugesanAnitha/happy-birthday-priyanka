@@ -5,12 +5,12 @@ const VideosSection: React.FC = () => {
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null);
 
   // --- VIDEO LINKS CONFIGURATION ---
-  // You will replace these with your Google Drive direct links once uploaded!
+  // FIXED: Converted your view links to direct download links!
   const videoLinks = {
-    youAndMe: "youandme.mp4",
-    funny: "funny.mp4",
-    aval: "aval.mp4",
-    youBoth: "youboth.mp4"
+    youAndMe: "https://drive.google.com/uc?export=download&id=1bN_FOOmw0hQOTMDn-MDasZ7a2EQQ92Mh",
+    funny: "https://drive.google.com/uc?export=download&id=1sGMPoRXJ-OplQEkfKXAqldrSmmK4wy32",
+    aval: "https://drive.google.com/uc?export=download&id=1yVvZRz4TcMroLdDWjZuBTLQjDFEkHBm4",
+    youBoth: "https://drive.google.com/uc?export=download&id=1or-jTq6b_ScOwRsrmdci4nwLfL63i9Kd"
   };
 
   const videos = [

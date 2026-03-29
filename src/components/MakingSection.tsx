@@ -3,6 +3,10 @@ import React from 'react';
 import { Video, Play } from 'lucide-react';
 
 const MakingSection: React.FC = () => {
+  // --- BTS VIDEO LINK CONFIGURATION ---
+  // FIXED: Converted your view link to a direct download link!
+  const btsVideoLink = "https://drive.google.com/uc?export=download&id=1WDAwTXK-Uqbw0oLbG4hJCVfKkzvZ-2Du";
+
   return (
     <section className="py-20 bg-gradient-to-br from-dark-card via-dark-bg to-purple/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +39,7 @@ const MakingSection: React.FC = () => {
               <div className="aspect-video flex items-center justify-center">
                 <div className="text-center">
                   <video
-                    src="bts.mp4" // You will replace this with your Google Drive direct link!
+                    src={btsVideoLink}
                     controls
                     className="w-full max-w-2xl mx-auto rounded-xl shadow-lg my-8"
                     poster=""
